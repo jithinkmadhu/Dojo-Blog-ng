@@ -18,7 +18,7 @@
 }
 
 .input-items.ng-invalid {
-  border-color: red;
+  border-color: #ff0000;
 }
 
 .input-items.ng-untouched {
