@@ -1,0 +1,14 @@
+ul {
+  list-style: none;
+  padding-left: 10px;
+}
+
+.title {
+  font-weight: 600;
+  margin-bottom: 2px;
+  cursor: pointer;
+}
+
+.author {
+  margin-top: 2px;
+}

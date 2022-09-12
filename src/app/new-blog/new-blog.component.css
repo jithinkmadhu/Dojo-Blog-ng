@@ -1,0 +1,26 @@
+.form-items {
+  text-align: left;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  margin-bottom: 5vh;
+}
+
+.input-items {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 1vh;
+  margin-top: 1vh;
+  border: 1px solid #8080805a;
+}
+
+.input-select {
+  color: #333;
+}
+
+.input-items.ng-invalid {
+  border-color: red;
+}
+
+.input-items.ng-untouched {
+  border-color: #8080805a;
+}

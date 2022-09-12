@@ -1,0 +1,11 @@
+.each-blog {
+  line-height: 1.5;
+}
+
+.each-blog h4 {
+  margin-bottom: 5px;
+}
+
+#edit-btn {
+  margin-right: 10px;
+}

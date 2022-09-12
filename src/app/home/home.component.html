@@ -1,0 +1,11 @@
+<div class="app-body app-body-home" id="home-body">
+  <h4>All Blogs&#33;</h4>
+  <ul id="blogs-list">
+    <li *ngFor="let blog of blogs; index as i" routerLink="{{ i }}">
+      <p class="pink-color title">
+        {{ blog.title }}
+      </p>
+      <p class="author">Written by {{ blog.author }}</p>
+    </li>
+  </ul>
+</div>

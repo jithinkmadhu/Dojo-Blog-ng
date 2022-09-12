@@ -1,0 +1,39 @@
+.wrapper {
+  width: 753px;
+  margin: 58px;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  font-family: "Courier New", Courier, monospace;
+  color: #333;
+  box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+  height: 80vh;
+  border-radius: 10px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+
+.app-header {
+  margin-top: 38px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-bottom: 0.5px solid #5c5c5c4e;
+}
+
+.nav-button {
+  background-color: var(--pink-color);
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  height: 20px;
+  font-family: inherit;
+  cursor: pointer;
+  padding: 3px;
+}
