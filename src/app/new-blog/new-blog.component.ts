@@ -14,6 +14,7 @@ export class NewBlogComponent implements OnInit {
   blogId!: number;
   new!: boolean;
   button!: string;
+
   constructor(
     private blogsService: BlogsService,
     private router: Router,

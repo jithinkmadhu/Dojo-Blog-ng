@@ -24,3 +24,8 @@
 .input-items.ng-untouched {
   border-color: #8080805a;
 }
+
+.error {
+  color: #ff0000;
+  margin-bottom: 20px;
+}

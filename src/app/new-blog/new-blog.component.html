@@ -17,7 +17,9 @@
         required
         #title="ngModel"
       /><br />
-      <div id="title-error"></div>
+      <div class="error" *ngIf="title.invalid && title.touched">
+        This fiels should not be empty.
+      </div>
       <br />
       <label for="body">Blog body:</label><br />
       <textarea
@@ -30,7 +32,9 @@
         #body="ngModel"
       ></textarea
       ><br />
-      <div id="body-error"></div>
+      <div class="error" *ngIf="body.invalid && body.touched">
+        This fiels should not be empty.
+      </div>
       <label for="author">Blog author:</label><br />
       <select
         class="input-items input-select"
@@ -44,8 +48,10 @@
         <option value="super">Super</option>
         <option value="dump">Dump</option>
       </select>
+      <div class="error" *ngIf="author.invalid && author.touched">
+        This fiels should not be empty.
+      </div>
     </div>
-
     <button type="submit">{{ button }} blog</button>
   </form>
 </div>

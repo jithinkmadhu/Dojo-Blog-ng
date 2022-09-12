@@ -75,10 +75,10 @@ h4 {
   text-align: center;
 }
 
-#body-error,
+/* #body-error,
 #title-error {
   color: #ff0000;
-}
+} */
 
 #blogs-list {
   height: 80%;
