@@ -24,12 +24,6 @@
   background: #000000;
 }
 
-body {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-}
-
 .pink-color {
   color: var(--pink-color);
 }
@@ -73,12 +67,8 @@ h4 {
 .app-body-add,
 .app-body-edit {
   text-align: center;
+  overflow: scroll;
 }
-
-/* #body-error,
-#title-error {
-  color: #ff0000;
-} */
 
 #blogs-list {
   height: 80%;
